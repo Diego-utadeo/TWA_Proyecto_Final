@@ -132,7 +132,6 @@ pip install -r requirements.txt
 
 ``` env
 GEMINI_API_KEY=TU_API_KEY
-SEARCH_API_KEY=TU_API_KEY_OPCIONAL
 ```
 
 ------------------------------------------------------------------------
@@ -150,46 +149,3 @@ query = "¿Cuál es la opinión pública sobre los vehículos eléctricos en 202
 state = mas.run(query)
 print(state.final_report)
 ```
-
-------------------------------------------------------------------------
-
-# 🗂️ Estructura del Repositorio
-
-    ├── agents/
-    │   ├── search_agent.py
-    │   ├── scraper_agent.py
-    │   ├── nlp_agent.py
-    │   ├── factcheck_agent.py
-    │   └── coordinator.py
-    ├── core/
-    │   ├── state.py
-    │   ├── workflows.py
-    │   └── utils.py
-    ├── main.py
-    ├── requirements.txt
-    ├── README.md
-    └── notebook.ipynb
-
-------------------------------------------------------------------------
-
-# 📈 Extensiones Futuras
-
--   Agente de traducción\
--   Integración con bases vectoriales (FAISS, Milvus)\
--   Pipeline de riesgo reputacional\
--   Agentes distribuidos con Kafka/RabbitMQ
-
-------------------------------------------------------------------------
-
-# 📄 Licencia
-
-Proyecto interno sujeto a lineamientos corporativos. Requiere
-autorización del área de Arquitectura para su uso o distribución.
-
-------------------------------------------------------------------------
-
-# 📞 Contacto
-
-**Equipo de Arquitectura & Analítica Avanzada**\
-📧 arquitectura@empresa.com\
-🔗 GitHub Enterprise: https://github.enterprise.com/organizacion
